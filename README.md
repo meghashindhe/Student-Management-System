@@ -5,18 +5,21 @@ It demonstrates **CRUD operations (Create, Read, Update, Delete)** with basic va
 ---
 
 ## Features
--Add, View, Update, Delete students
--Validations for numeric ID, email format, phone number
--Calendar input for Date of Birth
--Simple and user-friendly Streamlit UI
+- Add, View, Update, Delete students
+- Validations for numeric ID, email format, phone number
+- Calendar input for Date of Birth
+- Simple and user-friendly Streamlit UI
 
 ---
 
 ## Setup
 
 ### Clone the repo
+
 bash
+
 git clone https://github.com/meghashindhe/Student-Management-System.git
+
 cd Student-Management-System
 
 ---
@@ -24,12 +27,15 @@ cd Student-Management-System
 ### Install dependencies
 
 bash
+
 pip install streamlit pandas pymysql
 
 ---
 
 ### Create database in MySQL
+
 sql
+
 CREATE DATABASE student_db;
 
 USE student_db;
@@ -63,6 +69,7 @@ streamlit run start.py
 
 ---
 ## Screenshots
+
 ### Add Student Page  
 
 ![Add Student](sreenshots/Add_student.png)  
