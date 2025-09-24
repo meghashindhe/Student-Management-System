@@ -14,7 +14,7 @@ It demonstrates **CRUD operations (Create, Read, Update, Delete)** with basic va
 
 ## Setup
 
-### Clone the repo
+1. Clone the repo
 
 bash
 
@@ -24,7 +24,7 @@ cd Student-Management-System
 
 ---
 
-### Install dependencies
+2. Install dependencies
 
 bash
 
@@ -32,7 +32,7 @@ pip install streamlit pandas pymysql
 
 ---
 
-### Create database in MySQL
+3. Create database in MySQL
 
 sql
 
@@ -63,7 +63,7 @@ def create_connection():
 
 ---
 
-### Run the app
+4. Run the app
 
 streamlit run start.py
 
@@ -72,7 +72,7 @@ streamlit run start.py
 
 ### Add Student Page  
 
-![Add Student](sreenshots/Add_student.png)  
+![Add Student](screenshots/Add_student.png)  
 
 ### View Students Page  
 ![View Students](screenshots/View_students.png)  
