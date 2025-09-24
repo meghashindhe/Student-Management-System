@@ -15,20 +15,20 @@ It demonstrates **CRUD operations (Create, Read, Update, Delete)** with basic va
 ##Setup
 
 ###Clone the repo
-```bash
+bash
 git clone https://github.com/your-username/student-management-system.git
 cd student-management-system
 
 ---
 
 ###Install dependencies
-```bash
+bash
 pip install streamlit pandas pymysql
 
 ---
 
 ###Create database in MySQL
-```sql
+sql
 CREATE DATABASE student_db;
 
 USE student_db;
@@ -72,6 +72,7 @@ streamlit run start.py
 
 ### Delete Student Page  
 ![Delete Student](screenshots/Delete_student.png) 
+
 ---
 ##Demo video
 [Demo Video (Google Drive)](https://drive.google.com/file/d/1Y66xWe-gfRDPY1sgfoGi0Jims-dP1nDF/view?usp=sharing)
@@ -81,4 +82,4 @@ streamlit run start.py
 ##Author
 
 Megha Shindhe
----
+[Contact](www.linkedin.com/in/meghashindhe)
