@@ -1,1 +1,4 @@
+git add screenshots/.gitkeep
+git commit -m "Add screenshots folder"
+git push
 
