@@ -53,12 +53,12 @@ def create_connection():
     )
     return conn
 
-
+---
 ###Run the app
 
 streamlit run start.py
 
-
+---
 ##Screenshots
 ### Add Student Page  
 ![Add Student](Sreenshots/Add_student.png)  
@@ -71,13 +71,13 @@ streamlit run start.py
 
 ### Delete Student Page  
 ![Delete Student](Screenshots/Delete_student.png) 
-
+---
 ##Demo video
 [Demo Video (Google Drive)](https://drive.google.com/file/d/1Y66xWe-gfRDPY1sgfoGi0Jims-dP1nDF/view?usp=sharing)
 
-
+---
 
 ##Author
 
 Megha Shindhe
-    
+---
