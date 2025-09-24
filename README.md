@@ -4,7 +4,7 @@ It demonstrates **CRUD operations (Create, Read, Update, Delete)** with basic va
 
 ---
 
-##Features
+## Features
 -Add, View, Update, Delete students
 -Validations for numeric ID, email format, phone number
 -Calendar input for Date of Birth
@@ -12,24 +12,23 @@ It demonstrates **CRUD operations (Create, Read, Update, Delete)** with basic va
 
 ---
 
-##Setup
+## Setup
 
-###Clone the repo
+### Clone the repo
 bash
 git clone https://github.com/meghashindhe/Student-Management-System.git
 cd Student-Management-System
 
 ---
 
-###Install dependencies
+### Install dependencies
 
 bash
 pip install streamlit pandas pymysql
 
 ---
 
-###Create database in MySQL
-
+### Create database in MySQL
 sql
 CREATE DATABASE student_db;
 
@@ -58,12 +57,12 @@ def create_connection():
 
 ---
 
-###Run the app
+### Run the app
 
 streamlit run start.py
 
 ---
-##Screenshots
+## Screenshots
 ### Add Student Page  
 
 ![Add Student](sreenshots/Add_student.png)  
@@ -78,12 +77,12 @@ streamlit run start.py
 ![Delete Student](screenshots/Delete_student.png) 
 
 ---
-##Demo video
+## Demo video
 [Demo Video (Google Drive)](https://drive.google.com/file/d/1Y66xWe-gfRDPY1sgfoGi0Jims-dP1nDF/view?usp=sharing)
 
 ---
 
-##Author
+## Author
 
 Megha Shindhe
 [Contact](www.linkedin.com/in/meghashindhe)
