@@ -19,6 +19,7 @@ It demonstrates **CRUD operations (Create, Read, Update, Delete)** with basic va
 git clone https://github.com/your-username/student-management-system.git
 cd student-management-system
 
+---
 
 ###Install dependencies
 ```bash
