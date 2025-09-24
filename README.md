@@ -62,16 +62,16 @@ streamlit run start.py
 ---
 ##Screenshots
 ### Add Student Page  
-![Add Student](Sreenshots/Add_student.png)  
+![Add Student](sreenshots/Add_student.png)  
 
 ### View Students Page  
-![View Students](Screenshots/View_students.png)  
+![View Students](screenshots/View_students.png)  
 
 ### Update Student Page  
-![Update Student](Screenshots/Update_students.png)  
+![Update Student](screenshots/Update_students.png)  
 
 ### Delete Student Page  
-![Delete Student](Screenshots/Delete_student.png) 
+![Delete Student](screenshots/Delete_student.png) 
 ---
 ##Demo video
 [Demo Video (Google Drive)](https://drive.google.com/file/d/1Y66xWe-gfRDPY1sgfoGi0Jims-dP1nDF/view?usp=sharing)
