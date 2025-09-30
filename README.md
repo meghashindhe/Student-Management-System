@@ -16,25 +16,25 @@ It demonstrates **CRUD operations (Create, Read, Update, Delete)** with basic va
 
 1. Clone the repo
 
-bash
+```bash
 
 git clone https://github.com/meghashindhe/Student-Management-System.git
 
 cd Student-Management-System
-
+```
 ---
 
 2. Install dependencies
 
-bash
+```bash
 
 pip install streamlit pandas pymysql
-
+```
 ---
 
 3. Create database in MySQL
 
-sql
+```sql
 
 CREATE DATABASE student_db;
 
@@ -49,7 +49,7 @@ CREATE TABLE students (
 );
 
 
-Update MySQL credentials in db.py
+#Update MySQL credentials in db.py
 
 def create_connection():
     conn = pymysql.connect(
@@ -60,13 +60,13 @@ def create_connection():
         ssl_disabled=True
     )
     return conn
-
+```
 ---
 
 4. Run the app
-
+```python
 streamlit run start.py
-
+```
 ---
 ## Screenshots
 
